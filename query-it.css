@@ -1,0 +1,72 @@
+@media(max-width:575px){
+    header{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .header-left{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .address{
+        padding: 10px;
+    }
+    .address h3{
+        font-size: 15px;
+    }
+    .address p{
+        font-size: 12px;
+    }
+    .searchbox{
+        width: 75%;
+    }
+    .searchbox button{
+        padding: 10px;
+    }
+    .header-btn{
+        position: fixed;
+        bottom: 0px;
+        justify-content: center;
+        width: 100%;
+        margin-right: 0px;
+        background: #fff;
+    }
+    .banner-section{
+        display: none;
+    }
+    .order-banner{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .cateogry-items{
+        flex-basis: 25%;
+     }
+     .product-section{
+        padding: 30px 10px;
+     }
+     .product-item{
+        flex-basis: 49%;
+     }
+     footer{
+        padding-top: 0px;
+     }
+     .foot-mid1{
+        flex-direction: column;
+        padding: 10px;
+     }
+     .foot-mid-left{
+        flex-basis: 50%;
+     }
+     .foot-mid-right{
+        flex-basis: 45%;
+     }
+     .foot-mid2{
+        flex-direction: column;
+        gap: 20px;
+     }
+     .foot-mid3{
+        padding: 0px 10px;
+     }
+
+}
